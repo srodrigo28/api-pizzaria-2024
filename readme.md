@@ -32,10 +32,11 @@ npm i cors @types/cors
 
 
 #### Criptografia / JWT
-npm i bcryptjs
-npm i @types/bcryptjs -D
-
-npm i jwt
+[x] npm i bcryptjs
+[x] npm i @types/bcryptjs -D
+[x] npm i jsonwebtoken
+[x] npm i @types/jsonwebtoken -D
+    npm i dotenv
 
 #### Endpoints
 
