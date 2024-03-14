@@ -48,4 +48,23 @@ npm i cors @types/cors
 
 ##### Products
 
+#### Vercel Build
+npm i -g vercel
+#####
+{
+    "version": 2,
+    "builds": [
+        { 
+            "src": "./dist/server.js", 
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        { 
+            "src": "/(.*", 
+            "dest": "/dist/server.js"
+            }
+    ]
+}
+
 #### Outs
