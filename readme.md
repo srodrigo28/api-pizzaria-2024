@@ -24,11 +24,11 @@ npm i cors @types/cors
     "dev": "ts-node-dev src/server.ts"
 },
 
-#### Prisma ORM
+#### Prisma ORM 
 [x] npm install prisma --save-dev
 [x] npm install @prisma/client
 [x] npx prisma init --datasource-provider mysql
-[x] npx prisma migrate dev
+[x] npx prisma migrate dev 
 
 
 #### Criptografia / JWT
