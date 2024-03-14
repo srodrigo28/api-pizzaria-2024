@@ -50,6 +50,7 @@ npm i cors @types/cors
 
 #### Vercel Build
 npm i -g vercel
+vercel --prod
 #####
 {
     "version": 2,
