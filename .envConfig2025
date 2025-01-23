@@ -5,15 +5,10 @@
 # See the documentation for all the connection string options: https://pris.ly/d/connection-strings
 
 # DATABASE_URL="mysql://root:@localhost:3306/pizzaria"
+
+# Neon Tech = "postgresql://srodrigo28:vFMD2di8jXAs@ep-blue-truth-21397092-pooler.us-east-2.aws.neon.tech/app2?sslmode=require"
 DATABASE_URL="postgresql://srodrigo28:vFMD2di8jXAs@ep-blue-truth-21397092-pooler.us-east-2.aws.neon.tech/app2?sslmode=require"
 
 
 // jovemprogramador
 SECRET_KEY=f7d378fdd5f5d02cc234b4233d7d140b
-
-database: railway
-database2: railway
-port: 48951
-host: roundhouse.proxy.rlwy.net
-user: root
-pass: FvfBIYNtTCfsuvBrHIxwWEZaCXeerKIQ

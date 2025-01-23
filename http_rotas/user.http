@@ -1,0 +1,22 @@
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+    "name": "admin4",
+    "email": "admin40gmail.com",
+    "password": "123"
+}
+
+###
+
+POST http://localhost:3333/session
+Content-Type: application/json
+
+{
+    "email": "admin30gmail.com",
+    "password": "123"
+}
+
+####
+
+GET http://localhost:3333/me

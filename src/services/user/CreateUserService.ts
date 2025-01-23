@@ -24,7 +24,7 @@ class CreateUserService{
         }
 
         // criando padrão para criptografia
-        const passwordHash = await hash(password, 8)
+        const passwordHash = await hash(password, 3)
 
         // caso passar pelas validações então cadastrar
         const user = await prismaClient.user.create({
@@ -36,7 +36,8 @@ class CreateUserService{
             select: {
                 id: true,
                 name: true,
-                email: true
+                email: true,
+                password: true
             }
         })
         

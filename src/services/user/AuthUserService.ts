@@ -12,32 +12,24 @@ class AuthUserService{
 
         // Verificar se o email existe.
         const user = await prismaClient.user.findFirst({
-            where: {
-                email
-            }
+            where: { email }
         })
 
-        if(!user){
-            throw new Error("Usuário não encontrado");
-        }
+        if(!user) { throw new Error("Usuário não encontrado") }
 
         // Verificar se a senha está correta.
         const passwordMatch = await compare(password, user.password);
 
-        if(!passwordMatch){
-            throw new Error("Senha incorreta");
-        }
+        if(!passwordMatch){ throw new Error("Senha incorreta") }
 
         // gerar um token JWT e devolver os dados do usuario
         const token = sign(
-            {
-                name: user.name,
-                email: user.email
+            { 
+                name: user.name, email: user.email 
             },
             process.env.SECRET_KEY,
-            {
-                subject: user.id,
-                expiresIn: '30d'
+            { 
+                subject: user.id, expiresIn: '30d' 
             }
         )
 
@@ -47,7 +39,6 @@ class AuthUserService{
             email: user.email,
             token: token
         }
-        
     }
 }
 

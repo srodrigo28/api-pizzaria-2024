@@ -2,7 +2,7 @@
 
 ultimo visto
 ```
-https://www.udemy.com/course/dev-fullstack/learn/lecture/31683392#overview
+https://www.udemy.com/course/dev-fullstack/learn/lecture/31683396#overview
 ```
 #### Dependencias iniciais
 npm init -y
@@ -62,7 +62,7 @@ vercel --prod
     ],
     "routes": [
         { 
-            "src": "/(.*", 
+            "src": "/.*", 
             "dest": "/dist/server.js"
             }
     ]
