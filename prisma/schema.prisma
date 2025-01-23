@@ -3,7 +3,7 @@
 }
 
 datasource db {
-  provider = "mysql"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -29,6 +29,16 @@ model Category{
 
   @@map("categories") // nome que vai aparecer na tabela
   products Product[] // relacionamento uma categoria pode ter vairos produtos
+}
+
+model Profile{
+  id String @id @default( uuid())
+  name String
+
+  created_at DateTime? @default(now())
+  updated_at DateTime? @default(now())
+
+  @@map("profile") // nome que vai aparecer na tabela
 }
 
 model Product{
