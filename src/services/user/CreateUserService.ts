@@ -37,7 +37,7 @@ class CreateUserService{
                 id: true,
                 name: true,
                 email: true,
-                password: true
+                password: false
             }
         })
         

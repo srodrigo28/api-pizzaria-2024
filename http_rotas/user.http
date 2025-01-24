@@ -2,8 +2,8 @@ POST http://localhost:3333/users
 Content-Type: application/json
 
 {
-    "name": "admin4",
-    "email": "admin40gmail.com",
+    "name": "rodrigo",
+    "email": "rodrigo@gmail.com",
     "password": "123"
 }
 
@@ -13,10 +13,14 @@ POST http://localhost:3333/session
 Content-Type: application/json
 
 {
-    "email": "admin30gmail.com",
+    "email": "rodrigo@gmail.com",
     "password": "123"
 }
 
 ####
 
 GET http://localhost:3333/me
+
+####
+GET http://localhost:3333/me
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW40IiwiZW1haWwiOiJhZG1pbjRnbWFpbC5jb20iLCJpYXQiOjE3Mzc2NTQ2ODUsImV4cCI6MTc0MDI0NjY4NSwic3ViIjoiZTgyYzkxZDctMjdlZS00ZjU0LWFkNGMtMTZkNTQzOWFjNWFhIn0.e5YgM5Z9q_xcf73BE1cHxwpOCXuW4nR7ojX7sqWae4Q

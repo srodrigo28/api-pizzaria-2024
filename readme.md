@@ -2,6 +2,7 @@
 
 ultimo visto
 ```
+https://pizzaria-web-three.vercel.app/signup
 https://www.udemy.com/course/dev-fullstack/learn/lecture/31683396#overview
 ```
 #### Dependencias iniciais
@@ -69,3 +70,34 @@ vercel --prod
 }
 
 #### Outs
+
+```
+* use client
+https://www.udemy.com/course/dev-fullstack/learn/lecture/45208645#overview
+
+* upload de imagens
+https://console.cloudinary.com/pm/c-85039ac607217d93d054c48f2965c5/developer-dashboard
+
+* neon tech
+https://neon.tech/?gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3ryKxR4Apf2VlQXFarMFAu37ndTxCGqlNCoWce8uIZyp2Kv3yOKaqCIaAsSVEALw_wcB
+
+
+
+##### Sugestão
+
+notFontPage next
+layout next
+loading next
+
+#### 
+serve-side vs use client
+
+
+#### sequência de 
+Navegação Link
+SubNavegação Link
+Rotas dinâmicas Link useParam
+agrupar rotas (cliente) ou (produtos)
+
+#### Especial imagens
+```
