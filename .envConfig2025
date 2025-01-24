@@ -12,3 +12,6 @@ DATABASE_URL="postgresql://srodrigo28:vFMD2di8jXAs@ep-blue-truth-21397092-pooler
 
 // jovemprogramador
 SECRET_KEY=f7d378fdd5f5d02cc234b4233d7d140b
+
+
+JWT_SECRET=f7d378fdd5f5d02cc234b4233d7d140b
