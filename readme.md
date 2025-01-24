@@ -2,8 +2,7 @@
 
 ultimo visto
 ```
-https://pizzaria-web-three.vercel.app/signup
-https://www.udemy.com/course/dev-fullstack/learn/lecture/31683396#overview
+https://www.udemy.com/course/dev-fullstack/learn/lecture/31683428#overview
 ```
 #### Dependencias iniciais
 npm init -y
@@ -19,6 +18,8 @@ npm i ts-node-dev -D
 npm i express-async-errors
 
 npm i cors @types/cors
+
+npm i multer @types/multer -D
 
 #### Config pacakge.json
 "scripts": {
